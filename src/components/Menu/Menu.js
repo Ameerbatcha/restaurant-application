@@ -14,7 +14,7 @@ const Menu = () => {
   // }
 
   function addToCart(id) {
-    const url = "https://p28ihcca27.execute-api.ap-south-1.amazonaws.com/dev/api/cart"
+    const url = "https://hactvwuzyh.execute-api.ap-south-1.amazonaws.com/dev/api/cart"
     const params = {
       method: 'post',
       headers: {
@@ -35,7 +35,7 @@ const Menu = () => {
     // setCount(count+1)
   }
   const fetchData = () => {
-    const url = "https://p28ihcca27.execute-api.ap-south-1.amazonaws.com/dev/api/foods"
+    const url = "https://hactvwuzyh.execute-api.ap-south-1.amazonaws.com/dev/api/food"
     const params = {
       method: 'get',
       headers: {
