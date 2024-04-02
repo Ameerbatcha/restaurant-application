@@ -26,7 +26,7 @@ export const Login = () => {
         },
         body: JSON.stringify(newEntry),
       };
-      fetch("https://p28ihcca27.execute-api.ap-south-1.amazonaws.com/dev/api/login",params).then((res) => {
+      fetch("https://hactvwuzyh.execute-api.ap-south-1.amazonaws.com/dev/api/login",params).then((res) => {
           return res.json();
         })
         .then((data) => {
