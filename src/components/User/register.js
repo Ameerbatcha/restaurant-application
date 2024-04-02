@@ -29,7 +29,7 @@ export const Register = () => {
             },
             body:JSON.stringify(newEntry)
         }
-        fetch("https://p28ihcca27.execute-api.ap-south-1.amazonaws.com/dev/api/register",params).then((res)=>{
+        fetch("https://hactvwuzyh.execute-api.ap-south-1.amazonaws.com/dev/api/register",params).then((res)=>{
           return  res.json()
         }).then((data)=>{
             console.log(data.body.message);
