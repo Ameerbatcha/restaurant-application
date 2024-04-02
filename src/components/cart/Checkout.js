@@ -10,7 +10,7 @@ import image from "./../images/food.webp"
 export default function Checkout() {
   const [data, setData] = useState([]);
   const getData = () => {
-    const url = "https://p28ihcca27.execute-api.ap-south-1.amazonaws.com/dev/api/cart";
+    const url = "https://hactvwuzyh.execute-api.ap-south-1.amazonaws.com/dev/api/cart";
     const params = {
       method: "get",
       headers: {
